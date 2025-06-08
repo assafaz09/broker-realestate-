@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>רון דן - יועץ נדל״ן</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">רון דן</div>
+      <nav class="nav-menu">
+        <a href="#">בית</a>
+        <a href="#">שירותים</a>
+        <a href="#">אודות</a>
+        <a href="#contact">צור קשר</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>ליווי נדל״ן אישי</h1>
+        <p>
+          מחפש ליווי אישי בעולם הנדל״ן? שמי רון דן, ואני כאן כדי להפוך את הדרך שלך לקלה, בטוחה ומוצלחת.
+          עם ניסיון של שנים בשטח, אני עוזר ללקוחות לקנות, למכור ולהתייעץ – מתוך הבנה עמוקה של צרכים, אנשים ושוק הנדל״ן.
+        </p>
+        <a href="#contact" class="cta-button">קבע פגישה</a>
+      </div>
+      <div class="hero-image">
+        <img src="romimg.jpg" alt="רון דן" />
+      </div>
+    </section>
+
+    <section class="services">
+      <div class="service-box">
+        <h3>ליווי בקניית נכס</h3>
+        <p>אמצא עבורך את הבית המתאים ביותר – מהבנת התקציב, דרך חיפושים חכמים, ועד לסגירת חוזה מול עורך דין.</p>
+      </div>
+      <div class="service-box">
+        <h3>שיווק ומכירת נכסים</h3>
+        <p>צילום מקצועי, הצגת הנכס בצורה הטובה ביותר, ניהול מו״מ חכם וליווי עד לסגירה מול הקונה הנכון – בצורה רווחית ומהירה.</p>
+      </div>
+      <div class="service-box">
+        <h3>ייעוץ נדל״ן אישי</h3>
+        <p>פגישה ממוקדת שבה תבין איפה אתה עומד היום, אילו אפשרויות קיימות, ואיך לנצל נכון את ההון שלך או את הנכס שלך.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about-text">
+        <h2>מי אני?</h2>
+        <p>
+          אני רון דן – יועץ נדל"ן עם תשוקה אמיתית לאנשים ולחיים שבונים בין ארבעה קירות.  
+          בעשור האחרון צברתי ניסיון רחב בליווי עשרות לקוחות, תוך הקפדה על שקיפות, הקשבה וסבלנות.  
+          אני מאמין שלכל אחד מגיע למצוא את המקום שלו, ושאפשר לעשות את זה בנעימות ובביטחון.  
+          בין אם אתם רוכשים בפעם הראשונה או משקיעים מנוסים – אני פה בשבילכם.
+        </p>
+      </div>
+      <div class="about-img">
+        <img src="romimg.jpg" alt="רון דן" />
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>דברו איתי</h2>
+      <p>יש לכם שאלה? רוצים להתייעץ לפני צעד גדול? השאירו פרטים ואחזור אליכם תוך זמן קצר לפגישה או שיחה.</p>
+      <form id="contact-form" action="/contact" method="POST">
+        <label for="name">שם מלא:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">אימייל:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">הודעה:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">שלח</button>
+      </form>
+    </section>
+    <div id="seccsess-message">
+
+    </div>
+
+    <footer>
+      <p>© 2025 רון דן - יועץ נדל״ן</p>
+      <p>כל הזכויות שמורות</p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
